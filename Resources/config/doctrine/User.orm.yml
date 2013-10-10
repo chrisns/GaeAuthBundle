@@ -1,0 +1,8 @@
+chrisns\GaeAuthBundle\Entity\User:
+    type:  entity
+    table: gae_user
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO

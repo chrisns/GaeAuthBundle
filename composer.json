@@ -1,0 +1,27 @@
+{
+    "name": "chrisns/gae-auth-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony FOSUserBundle google app engine authentication",
+    "keywords": ["User management"],
+    "homepage": "http://chrisns.github.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Nesbitt-Smith",
+            "email": "chris@cns.me.uk"
+        },
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "friendsofsymfony/user-bundle": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-0": { "chrisns\\GaeAuthBundle": "" }
+    },
+    "target-dir": "chrisns/GaeAuthBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}

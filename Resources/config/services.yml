@@ -1,0 +1,3 @@
+services:
+    authentication_handler:
+          class: chrisns\GaeAuthBundle\Handler\AuthenticationHandler
